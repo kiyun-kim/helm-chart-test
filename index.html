@@ -1,3 +1,7 @@
 <h2>helm 실습용 nginx chart 입니다.</h2>
 
-- 이것은 안내 입니다.
+# 원격 저장소를 로컬에 등록하기
+<p>helm repo add [로컬 저장소] https://kiyun-kim.github.io/helm-chart-test/</p>
+
+# 로컬 저장소에 있는 repo 의 차트를 기반으로 release 설치
+<p>helm install [release 이름(myweb1)] [로컬 저장소]/nginx-chart</p>
